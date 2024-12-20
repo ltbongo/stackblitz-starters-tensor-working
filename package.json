@@ -1,0 +1,20 @@
+{
+  "name": "bybit-trading-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node src/index.js",
+    "backtest": "node src/scripts/backtest.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.10.0",
+    "bybit-api": "^3.7.1",
+    "technicalindicators": "^3.1.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}

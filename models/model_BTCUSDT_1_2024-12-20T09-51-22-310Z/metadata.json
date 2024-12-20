@@ -1,0 +1,16 @@
+{
+  "metrics": {
+    "accuracy": 0.9291666746139526,
+    "loss": 0.5984570980072021,
+    "epoch": 16
+  },
+  "tradingPair": "BTCUSDT",
+  "timeframe": "1",
+  "timestamp": "2024-12-20T09:51:22.337Z",
+  "hyperparameters": {
+    "learningRate": 0.001,
+    "batchSize": 32,
+    "epochs": 150,
+    "lookbackPeriods": 3
+  }
+}
